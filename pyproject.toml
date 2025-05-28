@@ -1,0 +1,9 @@
+[project]
+name = "contratosdemadrid"
+version = "0.1.0"
+description = "Scripts to download public contract data from Comunidad de Madrid portal, with features for monthly backfilling and CAPTCHA solving."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.52.0",
+]
