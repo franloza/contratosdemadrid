@@ -1,0 +1,5 @@
+# This file was automatically generated
+name: contracts
+type: duckdb
+options:
+  filename: contracts.duckdb

@@ -1,0 +1,6 @@
+[build]
+  command = "npm run sources && npm run build"
+  publish = "build"
+
+[dev]
+  targetPort = 8008
