@@ -1,48 +1,27 @@
-# Evidence Template Project
+# Contratos de Madrid - Visualization App
 
-## Using Codespaces
+This is the Evidence project for visualizing Madrid's public contract data.
 
-If you are using this template in Codespaces, click the `Start Evidence` button in the bottom status bar. This will install dependencies and open a preview of your project in your browser - you should get a popup prompting you to open in browser.
+The main instructions for the entire project, including how to generate the data for this app, are in the [root README.md](../../README.md).
 
-Or you can use the following commands to get started:
+## Running the app
 
-```bash
-npm install
-npm run sources
-npm run dev -- --host 0.0.0.0
-```
+From this directory (`src/app`):
 
-See [the CLI docs](https://docs.evidence.dev/cli/) for more command information.
+1.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+2.  **Build data sources:**
+    This command prepares the data for Evidence.
+    ```bash
+    npm run sources
+    ```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-**Note:** Codespaces is much faster on the Desktop app. After the Codespace has booted, select the hamburger menu → Open in VS Code Desktop.
+The application will be available at `http://localhost:3000`.
 
-## Get Started from VS Code
-
-The easiest way to get started is using the [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Evidence.evidence-vscode):
-
-
-
-1. Install the extension from the VS Code Marketplace
-2. Open the Command Palette (Ctrl/Cmd + Shift + P) and enter `Evidence: New Evidence Project`
-3. Click `Start Evidence` in the bottom status bar
-
-## Get Started using the CLI
-
-```bash
-npx degit evidence-dev/template my-project
-cd my-project 
-npm install 
-npm run sources
-npm run dev 
-```
-
-Check out the docs for [alternative install methods](https://docs.evidence.dev/getting-started/install-evidence) including Docker, Github Codespaces, and alongside dbt.
-
-
-
-## Learning More
-
-- [Docs](https://docs.evidence.dev/)
-- [Github](https://github.com/evidence-dev/evidence)
-- [Slack Community](https://slack.evidence.dev/)
-- [Evidence Home Page](https://www.evidence.dev)
+For more information about Evidence, see the [official documentation](https://docs.evidence.dev/).
